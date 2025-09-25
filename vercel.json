@@ -9,7 +9,10 @@
       "dest": "https://love-ai-mvp.onrender.com/api/$1"
     },
     {
-      "src": "/(.*)",
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
       "dest": "/index.html"
     }
   ]
