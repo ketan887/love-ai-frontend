@@ -1,3 +1,6 @@
+
+
+
 {
   "version": 2,
   "builds": [
@@ -8,9 +11,7 @@
       "src": "/api/(.*)",
       "dest": "https://love-ai-mvp.onrender.com/api/$1"
     },
-    {
-      "handle": "filesystem"
-    },
+    { "handle": "filesystem" },
     {
       "src": "/.*",
       "dest": "/index.html"
